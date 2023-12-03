@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  Styles at a glance
-category: jekyll 
-description: Simple is a beautiful but functional jekyll theme. The font-type setting looks really good when writers use CJK mixed with English.
+title: Hanbit's Blog
+category: Programming
+description: Hi my name is Hanbitkim. My blog posts about what I'm working on. Now enjoy my blog.
 ---
 
 Simple is a beautiful but functional jekyll theme. The font-type setting looks really good when writers use CJK mixed with English.
 
-First of all, let's have a glance at the basic styles: [link](http://github.com/wild-flame/jekyll-simple), **strong**, *italic*, <del>deletion</del>, <ins>insertion</ins>.
+First of all, let's have a glance at the basic styles: [link](http://github.com/wild-flame/jekyll-simple), **strong**, _italic_, <del>deletion</del>, <ins>insertion</ins>.
 
 <!--description-->
 
@@ -61,7 +61,7 @@ First of all, let's have a glance at the basic styles: [link](http://github.com/
 
 ### Horizontal rule:
 
------------------------
+---
 
 ### Image:
 
@@ -101,11 +101,10 @@ First of all, let's have a glance at the basic styles: [link](http://github.com/
 ```javascript
 // index.js
 var arr = [1, 2, 3, 4, 5];
-var b = arr.map(x => x * x);
+var b = arr.map((x) => x * x);
 console.log(b);
 
-function foo(){
-	console.log('foo');
+function foo() {
+  console.log("foo");
 }
-
 ```
